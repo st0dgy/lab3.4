@@ -18,7 +18,7 @@ int main()
 
 	// розгалуження в повній формі
 	if (((y <= sqrt(R * R - pow((x - R), 2) + R) && y <= x) ||
-		((y <= sqrt(R * R - pow((x + R), 2) && y >= -x && y<=0)))))
+		((y <= sqrt(R * R - pow((x + R), 2) - R))  && y >= -x && y<=0)))))
 		cout << "yes" << endl;
 	else
 
